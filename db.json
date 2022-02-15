@@ -1,0 +1,207 @@
+{
+  "orders": [
+    {
+      "id": "2022-1-1",
+      "status": "Expediée",
+      "customer": "SAFRAN SLS",
+      "products_ordered": [
+        {
+          "name": "KeyNetic",
+          "version": 1,
+          "quantity": 2
+        },
+        {
+          "name": "KeyVibe",
+          "version": 1,
+          "quantity": 2
+        }
+      ],
+      "products_prepared": [
+        {
+          "id": "KeyNetic_V1_AAAAAA",
+          "name": "KeyNetic",
+          "weight": "1.8"
+        },
+        {
+          "id": "KeyNetic_V1_BBBBBB",
+          "name": "KeyNetic",
+          "weight": "1.8"
+        },
+        {
+          "id": "KeyVibe_V1_AAAAAA",
+          "name": "KeyVibe",
+          "weight": "1.3"
+        },
+        {
+          "id": "KeyVibe_V1_BBBBBB",
+          "name": "KeyVibe",
+          "weight": "1.3"
+        }
+      ],
+      "created_at": "10/01/2022",
+      "updated_at": "10/01/2022"
+    },
+    {
+      "id": "2022-1-2",
+      "status": "En préparation",
+      "customer": "SAFRAN SAE",
+      "products_ordered": [
+        {
+          "name": "KeyNetic",
+          "version": "V2",
+          "quantity": 2
+        },
+        {
+          "name": "KeyVibe",
+          "version": "V2",
+          "quantity": 2
+        }
+      ],
+      "products_prepared": [],
+      "created_at": "11/01/2022",
+      "updated_at": "11/01/2022"
+    },
+    {
+      "id": "2022-2-1",
+      "status": "En préparation",
+      "customer": "SAFRAN CBL",
+      "products_ordered": [
+        {
+          "name": "KeyNetic",
+          "version": "V2",
+          "quantity": 1
+        },
+        {
+          "name": "KeyVibe",
+          "version": "V2",
+          "quantity": 1
+        }
+      ],
+      "products_prepared": [],
+      "created_at": "01/02/2022",
+      "updated_at": "01/02/2022"
+    },
+    {
+      "id": "2022-2-2",
+      "status": "En préparation",
+      "customer": "SAFRAN CBL",
+      "products_ordered": [
+        {
+          "name": "KeyNetic",
+          "version": "V3",
+          "quantity": 1
+        },
+        {
+          "name": "KeyVibe",
+          "version": "V3",
+          "quantity": 1
+        }
+      ],
+      "products_prepared": [],
+      "created_at": "10/02/2022",
+      "updated_at": "10/02/2022"
+    }
+  ],
+  "sendings": [
+    {
+      "tracking_number": "EXP_2022-1-1_80",
+      "order_id": "2022-1-1",
+      "products": [
+        {
+          "id": "KeyNetic_V1_AAAAAA",
+          "name": "KeyNetic",
+          "weight": "1.8"
+        },
+        {
+          "id": "KeyVibe_V1_AAAAAA",
+          "name": "KeyVibe",
+          "weight": "1.3"
+        }
+      ],
+      "weight": 3.1,
+      "status": "Envoyé",
+      "id": 1
+    },
+    {
+      "tracking_number": "EXP_2022-1-1_520",
+      "order_id": "2022-1-1",
+      "products": [
+        {
+          "id": "KeyNetic_V1_BBBBBB",
+          "name": "KeyNetic",
+          "weight": "1.8"
+        },
+        {
+          "id": "KeyVibe_V1_BBBBBB",
+          "name": "KeyVibe",
+          "weight": "1.3"
+        }
+      ],
+      "weight": 3.1,
+      "status": "Envoyé",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": "KeyNetic_V1_CCCCCC",
+      "name": "KeyNetic",
+      "weight": "1.8"
+    },
+    {
+      "id": "KeyNetic_V1_DDDDDD",
+      "name": "KeyNetic",
+      "weight": "1.8"
+    },
+    {
+      "id": "KeyNetic_V2_AAAAAA",
+      "name": "KeyNetic",
+      "weight": "1.5"
+    },
+    {
+      "id": "KeyNetic_V2_BBBBBB",
+      "name": "KeyNetic",
+      "weight": "1.5"
+    },
+    {
+      "id": "KeyNetic_V2_CCCCCC",
+      "name": "KeyNetic",
+      "weight": "1.5"
+    },
+    {
+      "id": "KeyNetic_V2_DDDDDD",
+      "name": "KeyNetic",
+      "weight": "1.5"
+    },
+    {
+      "id": "KeyVibe_V1_CCCCCC",
+      "name": "KeyVibe",
+      "weight": "1.3"
+    },
+    {
+      "id": "KeyVibe_V1_DDDDDD",
+      "name": "KeyVibe",
+      "weight": "1.3"
+    },
+    {
+      "id": "KeyVibe_V2_AAAAAA",
+      "name": "KeyVibe",
+      "weight": "1.2"
+    },
+    {
+      "id": "KeyVibe_V2_BBBBBB",
+      "name": "KeyVibe",
+      "weight": "1.2"
+    },
+    {
+      "id": "KeyVibe_V2_CCCCCC",
+      "name": "KeyVibe",
+      "weight": "1.2"
+    },
+    {
+      "id": "KeyVibe_V2_DDDDDD",
+      "name": "KeyVibe",
+      "weight": "1.2"
+    }
+  ]
+}
